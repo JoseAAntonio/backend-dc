@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 
-const db = require('../db');
+const db = require('../db.js');
 const { Op } = require('sequelize');
 
 //ROTA BUSCANDO TODOS OS PRODUTOS DO ARQUIVO LIDO COM O MODULO FS
